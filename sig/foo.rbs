@@ -1,9 +1,7 @@
-module Foo
-  class Good
-    def initialize: (String a) -> void
-  end
+class Good
+  def initialize: (String a) -> void
+end
 
-  class Bad
-    def initialize: (String a) -> void
-  end
+class Bad
+  def initialize: (String a) -> void
 end
