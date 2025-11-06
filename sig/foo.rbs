@@ -1,0 +1,13 @@
+module Foo
+  class Base
+    class Sub < Base
+      def initialize: (String a) -> void
+    end
+  end
+
+  class Pase
+    class Sup < Pase
+      def initialize: (String a) -> void
+    end
+  end
+end
