@@ -1,13 +1,9 @@
 module Foo
-  class Base
-    class Sub < Base
-      def initialize: (String a) -> void
-    end
+  class Good
+    def initialize: (String a) -> void
   end
 
-  class Pase
-    class Sup < Pase
-      def initialize: (String a) -> void
-    end
+  class Bad
+    def initialize: (String a) -> void
   end
 end
